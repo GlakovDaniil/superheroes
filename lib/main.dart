@@ -4,7 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:superheroes/pages/main_page.dart';
 
 void main() async {
-  await dotenv.load();
+  await dotenv.load(fileName: ".env");
   print (dotenv.env["SUPERHERO_TOKEN"]);
   runApp(MyApp());
 }

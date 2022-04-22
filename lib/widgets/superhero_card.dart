@@ -29,10 +29,10 @@ class SuperheroCard extends StatelessWidget {
         ),
         child: Row(
           children: [
-            Container(
-              color: Colors.white24,
+            Container(color: Colors.white24,
               height: 70,
               width: 70,
+
               child: CachedNetworkImage(
                 imageUrl: superheroInfo.imageUrl,
                 height: 70,
